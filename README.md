@@ -23,3 +23,7 @@ It covers:
 Do not treat numbers as plain text during translation.
 
 Numeric locale is part of translation. The assistant must preserve numeric value, convert display format according to the target locale, and flag ambiguous cases instead of silently guessing.
+
+## Related work 
+
+This skill is not a general localization framework. It focuses specifically on numeric locale translation and validation between English and Russian text, Excel/XLSX, and CSV.
