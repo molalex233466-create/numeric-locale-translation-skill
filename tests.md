@@ -103,12 +103,14 @@ Requirement:
 | LOSS-004 | `1,800-2,500`      | one value only                       | preserve range or add check           |
 | LOSS-005 | `>1,800`           | `1800` without comparison sign       | preserve comparison sign or add check |
 
-## Control lines
+## Format control lines as code blocks
 
+```text
 TEST_SET_VERSION=v0.1
 NUMERIC_LOCALE_TRANSLATION_RULE=ON
 CHECK_NUMERIC_LOCALE_TESTS_INCLUDED=yes
 XLSX_NUMERIC_STORAGE_TESTS_INCLUDED=yes
 CSV_DELIMITER_TESTS_INCLUDED=yes
 AMBIGUOUS_VALUE_TESTS_INCLUDED=yes
+```
 
