@@ -95,8 +95,9 @@ Preserve the raw value and add `CHECK_NUMERIC_LOCALE` if:
 * a numeric value intended for calculation is stored as text;
 * currency, unit, percent, range or comparison sign is lost during parsing.
 
-## Control lines
+## Format control lines as code blocks
 
+```text
 NUMERIC_LOCALE_TRANSLATION_RULE=ON
 EN_THOUSANDS_SEPARATOR_COMMA=yes
 EN_DECIMAL_SEPARATOR_DOT=yes
@@ -106,3 +107,4 @@ XLSX_STORE_NUMBERS_AS_NUMBERS=yes
 TEXT_OUTPUT_FORMAT_BY_TARGET_LOCALE=yes
 RAW_VALUE_REQUIRED=when_locale_or_scale_risk_exists
 CHECK_NUMERIC_LOCALE=when_ambiguous_or_scale_suspicious
+```
